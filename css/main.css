@@ -30,7 +30,7 @@
 @font-face {
     font-family: "Roboto";
     src: url("../fonts/Roboto-Bold.woff2") format("woff2"),
-        url("../fonts/Roboto-Bold.woff") format("woff");
+    url("../fonts/Roboto-Bold.woff") format("woff");
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -39,7 +39,7 @@
 @font-face {
     font-family: "Roboto";
     src: url("../fonts/Roboto-Regular.woff2") format("woff2"),
-        url("../fonts/Roboto-Regular.woff") format("woff");
+    url("../fonts/Roboto-Regular.woff") format("woff");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -48,7 +48,7 @@
 @font-face {
     font-family: "Roboto";
     src: url("../fonts/Roboto-Medium.woff2") format("woff2"),
-        url("../fonts/Roboto-Medium.woff") format("woff");
+    url("../fonts/Roboto-Medium.woff") format("woff");
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -89,6 +89,13 @@ body {
 img {
     max-width: 100%;
     height: auto;
+}
+
+.global-img {
+    width: 710px;
+    height: 596px;
+    display: block;
+    object-fit: cover;
 }
 
 /* BUTTON */
@@ -289,21 +296,18 @@ img {
     position: absolute;
     top: 50px;
     left: -150px;
-    transform: rotate(-22deg);
 }
 
 .leaf-center-img {
     position: absolute;
     top: 685px;
     right: -300px;
-    transform: rotate(-22deg);
 }
 
 .leaf-bottom-img {
     position: absolute;
     bottom: 170px;
     left: -216px;
-    transform: rotate(-7deg);
 }
 
 .collection-heading {
@@ -580,6 +584,162 @@ img {
 
 .socials-link:hover {
     color: var(--stiriking-color-green);
+}
+
+
+/* ABOUT-PAGE */
+.commitment {
+    margin-bottom: 80px;
+}
+
+.commitment-bg {
+    position: absolute;
+    top: 30px;
+    left: -180px;
+}
+
+.commitment-inner {
+    position: relative;
+    background-color: var(--light-white-color);
+    display: flex;
+    gap: 185px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 160px;
+    padding-bottom: 207px;
+}
+
+.commitment-img {
+    position: relative;
+    z-index: 2;
+    width: 360px;
+    height: 364px;
+}
+
+.commitment-text {
+    max-width: 626px;
+}
+
+.commitment-heading {
+    font-weight: 700;
+    font-size: 48px;
+    color: #000;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 17px;
+}
+
+.commitment-paragraph {
+    font-size: 18px;
+    line-height: 30px;
+    color: var(--text-color);
+}
+
+/* UNCOMPROMISING-SECTION */
+.uncompromising {
+    margin-bottom: 20px;
+}
+
+.uncompromising-inner {
+    position: relative;
+    background-image: url("../imgs/bg/brown-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 510px;
+    position: relative;
+    color: #fff;
+}
+
+.uncompromising-text {
+    max-width: 802px;
+    padding: 100px 0 118px 163px;
+}
+
+.uncompromising-heading {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: normal;
+    margin-top: 0;
+    margin-bottom: 24px;
+    max-width: 397px;
+}
+
+.uncompromising-paragraph {
+    font-size: 18px;
+    line-height: 30px;
+    margin: 0;
+}
+
+.uncompromising-img {
+    position: absolute;
+    top: -80px;
+    right: 30px;
+}
+
+/* HEADQUARTERS-SECTION */
+.headquarters {
+    margin-bottom: 50px;
+}
+
+.headquarters-inner {
+    background-image: url("../imgs/bg/green-bg.jpg");
+    background-position: 100% 685px;
+    padding: 50px 30px 100px;
+}
+
+.headquarters-heading {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: normal;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 80px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.headquarters-cards {
+    display: flex;
+    align-items: stretch;
+    gap: 1.5%;
+    flex-wrap: wrap;
+}
+
+.headquarters-card {
+    width: 32.3%;
+    position: relative;
+    background-color: var(--light-white-color);
+    color: var(--text-color);
+    padding: 187px 40px 40px 20px;
+}
+
+.headquarters-card:first-child {
+    padding: 140px 40px 40px 20px;
+}
+
+.headquarters-card-heading:first-child {
+    max-width: 231px;
+}
+
+.headquarters-card-heading {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: normal;
+    margin-top: 0;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.headquarters-card-paragraph {
+    max-width: 160px;
+    font-size: 18px;
+    line-height: 28px;
+    margin: 0;
+}
+
+.headquarters-card-img {
+    position: absolute;
+    top: 45px;
+    right: 55px;
 }
 
 
