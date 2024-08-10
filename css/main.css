@@ -746,6 +746,161 @@ img {
 }
 
 
+/* PLAN-PAGE */
+.plan-inner {
+    margin-bottom: 20px;
+}
+
+/* FAQ-SECTION */
+.faq-inner {
+    padding: 50px 144px 50px 30px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    position: relative;
+}
+
+.faq-bg-one,
+.faq-bg-two,
+.faq-bg-three,
+.faq-bg-four {
+    position: absolute;
+}
+
+.faq-bg-one,
+.faq-bg-four {
+    top: 220px;
+    right: -290px;
+}
+
+.faq-bg-four {
+    transform: rotate(230deg);
+}
+
+.faq-bg-two {
+    top: 680px;
+    left: -245px;
+}
+
+.faq-bg-three {
+    top: 1380px;
+    left: -320px;
+}
+
+.faq-accordion-links {
+    max-width: 202px;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.faq-accordion-link {
+    color: #555;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: normal;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.faq-accordion {
+    max-width: 660px;
+    display: flex;
+    flex-direction: column;
+}
+
+.faq-accordion-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    margin-bottom: 100px;
+}
+
+.faq-accordion-head {
+    display: flex;
+    align-items: center;
+    gap: 44px;
+    margin-bottom: 20px;
+}
+
+.faq-accordion-title {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: normal;
+    color: #000;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.faq-accordion-icon {
+    width: 40px;
+    height: 40px;
+    color: var(--text-color);
+}
+
+.faq-accordion-body {
+    display: flex;
+    gap: 18px;
+}
+
+.faq-accordion-item {
+    width: 208px;
+    background-color: rgba(10, 119, 95, 0.2);
+    padding: 30px 12px 56px 16px;
+    color: var(--text-color);
+}
+
+.faq-accordion-item:nth-child(2) {
+    background-color: #0a775f;
+    color: #fff;
+}
+
+.faq-accordion-item-heading {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: normal;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.faq-accordion-item-paragraph {
+    font-size: 18px;
+    line-height: 24px;
+    margin: 0;
+}
+
+.faq-accordion-text {
+    background-color: #c99b67;
+    padding: 40px 22px 40px 20px;
+    margin-bottom: 20px;
+}
+
+.faq-accordion-text h5 {
+    font-size: 16px;
+    line-height: normal;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 14px;
+}
+
+.faq-accordion-text p {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 34px;
+    color: #fff;
+}
+
+.faq-accordion-text span {
+    color: var(--text-color);
+}
+
+.button-faq {
+    align-self: flex-end;
+}
+
+
 /* RETINA BG */
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2),
