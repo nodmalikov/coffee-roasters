@@ -710,6 +710,9 @@ img {
     background-color: var(--light-white-color);
     color: var(--text-color);
     padding: 187px 40px 40px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
 .headquarters-card:first-child {
