@@ -322,7 +322,7 @@ img {
     margin-top: 0;
     margin-bottom: 80px;
     font-weight: 700;
-    font-size: 42px;
+    font-size: 50px;
     line-height: normal;
     color: #000;
     text-align: center;
@@ -360,7 +360,7 @@ img {
 
 .collection-product-text-heading {
     font-weight: 500;
-    font-size: 42px;
+    font-size: 50px;
     line-height: normal;
     margin-top: 0;
     margin-bottom: 10px;
@@ -395,7 +395,7 @@ img {
 
 .choose-heading {
     font-weight: 700;
-    font-size: 40px;
+    font-size: 50px;
     line-height: normal;
     color: #fff;
     margin-top: 0;
@@ -475,7 +475,7 @@ img {
 
 .works-heading {
     font-weight: 700;
-    font-size: 44px;
+    font-size: 50px;
     line-height: normal;
     color: #fff;
     text-transform: uppercase;
@@ -673,6 +673,7 @@ img {
     margin-top: 0;
     margin-bottom: 24px;
     max-width: 397px;
+    text-transform: uppercase;
 }
 
 .uncompromising-paragraph {
