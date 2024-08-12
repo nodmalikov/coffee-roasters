@@ -986,6 +986,6 @@ only screen and (                min-resolution: 2dppx) {
     }
     
     html {
-        background-image: linear-gradient(to right, rgb(68, 166, 247), rgb(96, 240, 91));
+        background-color: var(--stiriking-color-green);
     }
 }
