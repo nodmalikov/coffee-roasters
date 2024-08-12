@@ -844,7 +844,6 @@ img {
     width: 40px;
     height: 40px;
     color: var(--text-color);
-    transition: transform 0.3s ease;
 }
 
 .faq-accordion-icon-rotate {
