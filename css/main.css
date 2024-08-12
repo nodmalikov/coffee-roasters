@@ -662,8 +662,8 @@ img {
 }
 
 .uncompromising-text {
-    max-width: 802px;
-    padding: 100px 0 118px 163px;
+    max-width: 650px;
+    padding: 100px 0 118px 50px;
 }
 
 .uncompromising-heading {
@@ -775,29 +775,23 @@ img {
 
 .faq-bg-one,
 .faq-bg-two,
-.faq-bg-three,
-.faq-bg-four {
+.faq-bg-three {
     position: absolute;
 }
 
 .faq-bg-one,
-.faq-bg-four {
+.faq-bg-three {
     top: 220px;
     right: -290px;
 }
 
-.faq-bg-four {
+.faq-bg-three {
     transform: rotate(230deg);
 }
 
 .faq-bg-two {
     top: 680px;
     left: -245px;
-}
-
-.faq-bg-three {
-    top: 1380px;
-    left: -320px;
 }
 
 .faq-accordion-links {
@@ -834,6 +828,7 @@ img {
     align-items: center;
     gap: 44px;
     margin-bottom: 20px;
+    cursor: pointer;
 }
 
 .faq-accordion-title {
@@ -849,11 +844,21 @@ img {
     width: 40px;
     height: 40px;
     color: var(--text-color);
+    transition: transform 0.3s ease;
+}
+
+.faq-accordion-icon-rotate {
+    transform: rotate(180deg);
 }
 
 .faq-accordion-body {
-    display: flex;
+    display: none;
     gap: 18px;
+    overflow: hidden;
+}
+
+.open-accordion {
+    display: flex;
 }
 
 .faq-accordion-item {
@@ -972,5 +977,16 @@ only screen and (                min-resolution: 192dpi),
 only screen and (                min-resolution: 2dppx) {
     .site-footer {
         background-image: url("../imgs/bg/footer-bg@2x.jpg");
+    }
+}
+
+/* MEDIA-QUERIES */
+@media only screen and (max-width: 1360px) {
+    body {
+        display: none;
+    }
+    
+    html {
+        background-image: linear-gradient(to right, rgb(68, 166, 247), rgb(96, 240, 91));
     }
 }
