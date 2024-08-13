@@ -13,7 +13,7 @@ if (elsAccordionHead) {
                 }
             });
             
-            // Bosilgan accordionni ochish yoki yopish
+            // BOSILGAN ACCORDIONNI OCHISH YOKI YOPISH
             const elAccordionBody = elAccordionHead.nextElementSibling;
             const elAccordionIcon = elAccordionHead.querySelector('.faq-accordion-icon');
             elAccordionBody.classList.toggle('open-accordion');
